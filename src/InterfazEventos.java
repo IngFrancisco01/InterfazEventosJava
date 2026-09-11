@@ -93,12 +93,12 @@ public class InterfazEventos extends Frame implements ActionListener {
         panel.add(botonCalcular);
 
         Label etiquetaResultado = new Label("Resultado:");
-        etiquetaResultado.setBounds(25, 175, 70, 25);
+        etiquetaResultado.setBounds(25, 175, 85, 25);
         etiquetaResultado.setFont(new Font("SansSerif", Font.BOLD, 12));
         panel.add(etiquetaResultado);
 
         campoResultado = new TextField();
-        campoResultado.setBounds(95, 175, 110, 25);
+        campoResultado.setBounds(115, 175, 110, 25);
         campoResultado.setEditable(false);
         campoResultado.setBackground(new Color(235, 248, 238));
         panel.add(campoResultado);
